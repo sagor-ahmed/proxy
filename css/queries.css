@@ -1,0 +1,345 @@
+/* ----------------------------------------------- */
+/* 07. RESPONSIVE CSS START */
+/* ----------------------------------------------- */
+
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+    /*header search*/
+    .header-search input[type="search"] {
+        width: 55%;
+    }
+
+    .header-search button[type="submit"] {
+        margin-left: 2px;
+    }
+
+    /*subscrive*/
+    .subscribe-text p {
+        width: 326px;
+    }
+
+    .subscribe-form {
+        margin-left: 0;
+    }
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    /*header search*/
+    .header-search input[type="search"] {
+        width: 40%;
+    }
+/*subscribe*/
+    .subscribe-form input {
+        width: 455px;
+    }
+
+    .subscribe-text p {
+        width: 290px;
+    }
+
+    .subscribe-form {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    .accordion-area {
+        padding-top: 30px;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .header-search {
+        width: 59%;
+    }
+
+    .header-search input[type="search"] {
+        width: 37%;
+    }
+
+    .accordion {
+        padding-top: 30px;
+        margin-bottom: 30px;
+    }
+    .accordion-area {
+        padding-right: 5px;
+        padding-top: 30px;
+    }
+    .subscribe-content {
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+    }
+
+    .subscribe-text p {
+        display: block;
+        width: 100%;
+    }
+
+    .subscribe-form {
+        margin-bottom: 20px;
+    }
+
+    .subscribe-text {
+        margin-bottom: 20px;
+    }
+
+    .subscribe-form {
+        margin-left: 0;
+    }
+
+    .subscribe-form input {
+        width: 100%;
+    }
+
+    .faq-thumb img {
+        width: 100%;
+    }
+
+    .faq-thumb {
+        padding-left: 0;
+    }
+    .faq-content h2 {
+        font-size: 37px;
+        text-align: center;
+    }
+    .faq-thumb {
+        margin-top: 30px;
+    }
+    .footer-widget-content p {
+        padding-right: 0;
+    }
+    .footer-widget {
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+    .footer-widget {
+        margin-bottom: 30px;
+    }
+
+    .header-icon {
+        float: none !important;
+    }
+
+    .site-header {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .logo.w-img {
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .header-icon span {
+        right: 43%;
+    }
+    .header-search {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .header-search input[type="search"] {
+        width: 50%;
+    }
+
+    .footer-widget-title h4 {
+        font-size: 15px;
+    }
+
+    .footer-widget-content > a {
+        font-size: 15px;
+    }
+
+    .faq-content h2 {
+        padding-right: 0;
+    }
+
+    .faq-thumb {
+        height: auto;
+        z-index: -1;
+        margin-bottom: -5px;
+    }
+
+    /*footer*/
+    .copyright-text {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .copyright-content {
+        margin-bottom: 15px;
+    }
+
+    .footer-area .span-2-of-12 {
+        width: 48.2%;
+        margin-left: 0px !important;
+    }
+    .margin-15px-right {
+        margin-right: 5px;
+    }
+
+    .faq-content h2 {
+        line-height: 1.2;
+        font-size: 40px;
+        text-align: left;
+    }
+    .accordion-area {
+       padding-right: 0px;
+        padding-top: 20px;
+    }
+    /*footer*/
+    .footer-area {
+        padding: 29px 0 0px 0;
+    }
+}
+
+
+
+@media (max-width: 575px) {
+
+    /*topbar*/
+    .topbar-content {
+        display: block;
+        text-align: center;
+    }
+
+    .faq-content h2 {
+        line-height: 1.2;
+        font-size: 35px;
+    }
+    .accordion-area {
+        padding-right: 0px;
+         padding-top: 10px;
+     }
+     .faq-thumb {
+        margin-top: 15px;
+    }
+    .topbar-left {
+        margin-bottom: 5px;
+    }
+
+    .subscribe-form input {
+        margin-bottom: 7px;
+    }
+
+    .input-group {
+        display: block;
+    }
+
+    .input-group-button {
+        float: left;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        height: 49%;
+    }
+
+    .select-group {
+        margin-top: -4px;
+        margin-bottom: 0px;
+        margin-right: -2px;
+        border-top-right-radius: 7px;
+        padding-right: 0px;
+    }
+    .header-search button[type="submit"] {
+        margin-top: 0px;
+        margin-right: -2px;
+        margin-bottom: -2px;
+    }
+
+    .btn-form {
+        position: static;
+        width: 100%;
+    }
+    .nice-select {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-top: 0;
+        border-top-right-radius: 7px!important;
+    }
+    .nice-select::after {
+        margin-top: 0;
+    }
+    ul.list {
+        width: 100%;
+    }.header-search input[type="search"] {
+      
+    }
+    .header-search button[type="submit"] {
+        margin-top: -1px;
+    }
+    .btn-success {
+        border-top-right-radius: 0px;
+    }
+}
+
+
+
+/*------------nav responsive css---------*/
+#main-nav .nav-inner {
+    padding-right: 15px!important;
+    padding-left: 15px!important;
+}
+
+@media (min-width: 568px) {
+    .container {
+        max-width: 540px;
+    }
+       #main-nav .nav-inner {
+        max-width: 540px!important;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    
+       #main-nav .nav-inner {
+        max-width: 720px!important;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+      #main-nav .nav-inner {
+        max-width: 960px!important;
+    }
+}
+
+
+@media (min-width: 1200px) {
+
+    .container {
+        max-width: 1140px;
+    }
+
+    #main-nav .nav-inner {
+        max-width: 1140px!important;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+      #main-nav .nav-inner {
+        max-width: 1320px!important;
+    }
+}
